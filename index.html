@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Fleuriste</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class="ri-leaf-line nav__logo-icon"></i> Fleuriste
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Accueil</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">À propos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">Nos produits</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#faqs" class="nav__link">FAQs</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Nous contacter
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <img src="assets/img/accueil.png" alt="" class="home__img">
+
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Fleurs Plantes Chocolats
+                    </h1>
+                    <p class="home__description">
+                        “Un vrai régal pour les yeux et les papilles”
+                    </p>
+                    <a href="#about" class="button button--flex">
+                        Explorer <i class="ri-arrow-right-down-line button__icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section container" id="about">
+            <div class="about__container grid">
+                <img src="assets/img/about.png" alt="" class="about__img">
+
+                <div class="about__data">
+                    <h2 class="section__title about__title">
+                        Qui sommes-nous &<br>Pourquoi nous choisir
+                    </h2>
+
+                    <p class="about__description">
+                        Nos fleurs, la confection de nos bouquets ou le soins apportés
+                        à son embalage, nous sommes rigoureusement attentifs à la qualité
+                        de nos service.
+                    </p>
+
+                    <div class="about__details">
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>
+                            La fraicheur de nos produits est controler en permanence.
+                        </p>
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>
+                            Les bouquets et réalisations sont confectionnés par des fleuristes professionnels.
+                        </p>
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>
+                            Chaque bouquets est réaliser sur mesure.
+                        </p>
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>
+                            Budget respecté.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==================== STEPS ====================-->
+        <section class="steps section container">
+            <div class="steps__bg">
+                <h2 class="section__title-center steps__title">
+                    Je commande <br> à distance
+                </h2>
+
+                <div class="steps__container grid">
+                    <div class="steps__card">
+                        <div class="steps__card-number">Étape 01</div>
+                        <!--<h3 class="steps__card-title">Étape</h3>-->
+                        <p class="steps__card-description">
+                            Je consulte la sélection de produits sur le site Fleuriste.
+                        </p>
+                    </div>
+
+                    <div class="steps__card">
+                        <div class="steps__card-number">Étape 02</div>
+                        <!--<h3 class="steps__card-title">Étape</h3>-->
+                        <p class="steps__card-description">
+                            Je contacte le Fleuriste par télephone et effectue un paiement à distance de ma commande.
+                        </p>
+                    </div>
+
+                    <div class="steps__card">
+                        <div class="steps__card-number">Étape 03</div>
+                        <!--<h3 class="steps__card-title">Étape</h3>-->
+                        <p class="steps__card-description">
+                            Je passe récupérer ma commande en magasin ou je me fais liver à domicile*.
+                            <br>
+                            *voir carte des tarif de livraison.
+                        </p>
+                    </div>
+                    <div class="steps__card">
+                        <div class="steps__card-number">Étape 04</div>
+                        <!--<h3 class="steps__card-title">Étape</h3>-->
+                        <p class="steps__card-description">
+                            la carte ici.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PRODUCTS ====================-->
+        <section class="product section container" id="products">
+            <h2 class="section__title-center">
+                Découvrez <br> nos produits
+            </h2>
+
+            <p class="product__description">
+                Voici quelques plantes sélectionnées disponible dans notre boutique. Profitez de la meilleure qualité.
+            </p>
+            <div class="product__container grid">
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/cactus1.png" alt="" class="product__img">
+
+                    <h3 class="product__title">Cactus</h3>
+
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/cactus2.png" alt="" class="product__img">
+
+                    <h3 class="product__title">Cactus</h3>
+
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/cactus3.png" alt="" class="product__img">
+
+                    <h3 class="product__title">Cactus</h3>
+
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/cactus4.png" alt="" class="product__img">
+
+                    <h3 class="product__title">Cactus</h3>
+
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/cactus5.png" alt="" class="product__img">
+
+                    <h3 class="product__title">Cactus</h3>
+
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/cactus6.png" alt="" class="product__img">
+
+                    <h3 class="product__title">Cactus</h3>
+
+                </article>
+            </div>
+            <!--==================== PRODUCTS part 2 ====================-->
+            <h2 class="section__title-center">
+                Découvrez <br> nos chocolats
+            </h2>
+
+            <p class="product__description">
+                Voici quelques chocolats sélectionnées disponible dans notre boutique. Profitez de la meilleure qualité.
+            </p>
+            <div class="product__container grid">
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/macaron_d_amiens.png" alt="Macaron d'Amiens" class="product__img">
+
+                    <h3 class="product__title">Macaron d'Amiens</h3>
+
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/nougat.png" alt="Nougat" class="product__img">
+
+                    <h3 class="product__title">Nougat</h3>
+
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/tuile1.png" alt="" class="product__img">
+
+                    <h3 class="product__title">Tuiles assortiment chocolat</h3>
+
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/tuile2.png" alt="" class="product__img">
+
+                    <h3 class="product__title">Tuiles chocolat noir</h3>
+
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/tuile3.png" alt="" class="product__img">
+
+                    <h3 class="product__title">Tuiles chocolat au lait</h3>
+
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/tuile4.png" alt="Tuile chocolat blanc" class="product__img">
+
+                    <h3 class="product__title">Tuiles chocolat blanc</h3>
+
+                </article>
+            </div>
+
+            <!--==================== PRODUCTS part 3 ====================-->
+            <h2 class="section__title-center">
+                Découvrez <br> nos bouquets
+
+            </h2>
+
+            <p class="product__description">
+                Voici quelques réalisations sélectionnées disponible dans notre boutique. Profitez de la meilleure
+                qualité.
+            </p>
+            <div class="product__container grid">
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/macaron_d_amiens.png" alt="" class="product__img">
+
+                    <h3 class="product__title">Nos bouquets</h3>
+
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/nougat.png" alt="" class="product__img">
+
+                    <h3 class="product__title">Nos bouquets</h3>
+
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/tuile1.png" alt="" class="product__img">
+
+                    <h3 class="product__title">Nos bouquets</h3>
+
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/tuile2.png" alt="" class="product__img">
+
+                    <h3 class="product__title">Nos bouquets</h3>
+
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/tuile3.png" alt="" class="product__img">
+
+                    <h3 class="product__title">Nos bouquets</h3>
+
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/tuile4.png" alt="" class="product__img">
+
+                    <h3 class="product__title">Nos bouquets</h3>
+
+                </article>
+            </div>
+
+            <!--==================== PRODUCTS part 4 ====================-->
+            <h2 class="section__title-center">
+                Découvrez <br> nos fleurs de deuil
+
+            </h2>
+
+            <p class="product__description">
+                Voici quelques réalisations sélectionnées disponible dans notre boutique. Profitez de la meilleure
+                qualité.
+            </p>
+            <div class="product__container grid">
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/deuil1.png" alt="" class="product__img">
+
+                    <h3 class="product__title">Nos fleurs de deuil</h3>
+
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/ventouse_mariage_voiture.png" alt="" class="product__img">
+
+                    <h3 class="product__title">Nos fleurs de deuil</h3>
+
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/tuile1.png" alt="" class="product__img">
+
+                    <h3 class="product__title">Nos fleurs de deuil</h3>
+
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/tuile2.png" alt="" class="product__img">
+
+                    <h3 class="product__title">Nos fleurs de deuil</h3>
+
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/tuile3.png" alt="" class="product__img">
+
+                    <h3 class="product__title">Nos fleurs de deuil</h3>
+
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/tuile4.png" alt="" class="product__img">
+
+                    <h3 class="product__title">Nos fleurs de deuil</h3>
+
+                </article>
+            </div>
+        </section>
+
+        <!--==================== QUESTIONS ====================-->
+        <section class="questions section" id="faqs">
+            <h2 class="section__title-center questions__title container">
+                Questions <br> les plus fréquentes
+            </h2>
+
+            <div class="questions__container container grid">
+                <div class="questions__group">
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Questions 1 ?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Réponse 1.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Questions 2 ?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Réponse 2.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Questions 3 ?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Réponse 3.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="questions__group">
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Questions 4 ?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Réponse 4.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Questions 5 ?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Réponse 5.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Questions 6?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Réponse 6.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section container" id="contact">
+            <div class="contact__container grid">
+                <div class="contact__box">
+                    <h2 class="section__title">
+                        Nous contacter
+                    </h2>
+
+                    <div class="contact__data">
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">Par téléphone</h3>
+                            <span class="contact__description">
+                                <i class="ri-phone-line contact__icon"></i>
+                                <a href="tel:0322000000" class="contact_link">0322000000</a>
+                            </span>
+                        </div>
+
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">Par mail</h3>
+                            <span class="contact__description">
+                                <i class="ri-mail-line contact__icon"></i>
+                                <a href="mailto:mail.mail@gmail.com"
+                                    class="contact_link">mail.mail@gmail.com</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <h3 class="footer__title">Notre adresse</h3>
+
+                <ul class="footer__data">
+                    <a href="https://goo.gl/maps/o1D9ReKG62fv8mhR8" class="contact_link" target="_blank"
+                        rel="noopener noreferrer">
+                        <li class="footer__information">Rue du 11 Novembre 1918,</li>
+                        <li class="footer__information">80080 Amiens</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Nous contacter
+                </h3>
+
+                <ul class="footer__data">
+                    <li class="footer__information"><a href="tel:0322000000" class="contact_link">0322000000</a></li>
+
+                    <div class="footer__social">
+                        <a href="https://fr-fr.facebook.com/"
+                            target="_blank " class="contact_link">
+                            <i class="ri-facebook-fill"></i> Facebook
+                        </a>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Moyen de paiement acceptés
+                </h3>
+
+                <div class="footer__cards">
+                    <img src="assets/img/card1.png" alt="" class="footer__card">
+                    <img src="assets/img/card2.png" alt="" class="footer__card">
+                    <!-- <img src="assets/img/card3.png" alt="" class="footer__card">
+                        <img src="assets/img/card4.png" alt="" class="footer__card"> -->
+                </div>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Nos partenaires
+                </h3>
+
+                <div class="footer__cards">
+
+                    <a href="https://www.mondialrelay.fr/" target="_blank" rel="noopener noreferrer"><img
+                            src="assets/img/mondial-relay-logo.png" alt="" class="footer__card"></a>
+                    <a href="https://www.florajet.com/" target="_blank" rel="noopener noreferrer"><img
+                            src="assets/img/florajet.svg" alt="" class="footer__card"></a>
+                    <!-- <img src="assets/img/card3.png" alt="" class="footer__card">
+                        <img src="assets/img/card4.png" alt="" class="footer__card"> -->
+                </div>
+            </div>
+        </div>
+
+        <p class="footer__copy"><a href="http://" class="contact_link" target="_blank" rel="noopener noreferrer">
+                Mentions légales</a></p>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-fill scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
